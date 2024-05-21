@@ -48,3 +48,5 @@ jobs:
       - name: Upload coverage
         if: ${{ matrix.java == 21 }}
         uses: coverallsapp/github-action@v2
+        with:
+          debug: true
