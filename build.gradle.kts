@@ -50,13 +50,11 @@ tasks.withType<Test> {
 }
 
 tasks.jacocoTestReport {
-    /*
     reports {
-        html.required.set(false)
+//        html.required.set(false)
         xml.required.set(true)
-        xml.outputLocation.set(file("${layout.buildDirectory}/reports/jacoco/test/jacocoFullReport.xml"))
+//        xml.outputLocation.set(file("${layout.buildDirectory}/reports/jacoco/test/jacocoFullReport.xml"))
     }
-    */
     dependsOn(allprojects.map { it.tasks.named<Test>("test") })
 }
 

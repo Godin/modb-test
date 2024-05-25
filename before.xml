@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><!DOCTYPE report PUBLIC "-//JACOCO//DTD Report 1.1//EN"
+        "report.dtd">
+<report name="modb-test">
+    <sessioninfo id="godins-macbook-pro-1.home-c714450" start="1716678302687" dump="1716678305335"/>
+    <sessioninfo id="godins-macbook-pro-1.home-c1b10df8" start="1716678302654" dump="1716678305483"/>
+    <sessioninfo id="godins-macbook-pro-1.home-bec158ac" start="1716678302716" dump="1716678305517"/>
+    <sessioninfo id="godins-macbook-pro-1.home-11d633c6" start="1716678302669" dump="1716678305549"/>
+    <sessioninfo id="godins-macbook-pro-1.home-82054217" start="1716678302718" dump="1716678305594"/>
+    <sessioninfo id="godins-macbook-pro-1.home-fc4044f9" start="1716678302700" dump="1716678306621"/>
+    <sessioninfo id="godins-macbook-pro-1.home-a4aef385" start="1716678302687" dump="1716678307024"/>
+    <sessioninfo id="godins-macbook-pro-1.home-b3b908d3" start="1716678302654" dump="1716678308316"/>
+    <package name="io/github/manamiproject/modb/test">
+        <class name="io/github/manamiproject/modb/test/FunctionsKt" sourcefilename="Functions.kt">
+            <method name="testResource" desc="(Ljava/lang/String;)Ljava/nio/file/Path;" line="31">
+                <counter type="INSTRUCTION" missed="0" covered="43"/>
+                <counter type="BRANCH" missed="0" covered="8"/>
+                <counter type="LINE" missed="0" covered="3"/>
+                <counter type="COMPLEXITY" missed="0" covered="5"/>
+                <counter type="METHOD" missed="0" covered="1"/>
+            </method>
+            <method name="shouldNotBeInvoked" desc="()Ljava/lang/Void;" line="79">
+                <counter type="INSTRUCTION" missed="7" covered="0"/>
+                <counter type="LINE" missed="1" covered="0"/>
+                <counter type="COMPLEXITY" missed="1" covered="0"/>
+                <counter type="METHOD" missed="1" covered="0"/>
+            </method>
+            <counter type="INSTRUCTION" missed="7" covered="43"/>
+            <counter type="BRANCH" missed="0" covered="8"/>
+            <counter type="LINE" missed="1" covered="3"/>
+            <counter type="COMPLEXITY" missed="1" covered="5"/>
+            <counter type="METHOD" missed="1" covered="1"/>
+            <counter type="CLASS" missed="0" covered="1"/>
+        </class>
+        <class name="io/github/manamiproject/modb/test/FunctionsKt$exceptionExpected$$inlined$CoroutineExceptionHandler$1"
+               sourcefilename="CoroutineExceptionHandler.kt">
+            <method name="&lt;init&gt;"
+                    desc="(Lkotlinx/coroutines/CoroutineExceptionHandler$Key;Lkotlin/jvm/internal/Ref$ObjectRef;)V"
+                    line="44">
+                <counter type="INSTRUCTION" missed="8" covered="0"/>
+                <counter type="LINE" missed="1" covered="0"/>
+                <counter type="COMPLEXITY" missed="1" covered="0"/>
+                <counter type="METHOD" missed="1" covered="0"/>
+            </method>
+            <method name="handleException" desc="(Lkotlin/coroutines/CoroutineContext;Ljava/lang/Throwable;)V"
+                    line="46">
+                <counter type="INSTRUCTION" missed="5" covered="0"/>
+                <counter type="LINE" missed="1" covered="0"/>
+                <counter type="COMPLEXITY" missed="1" covered="0"/>
+                <counter type="METHOD" missed="1" covered="0"/>
+            </method>
+            <counter type="INSTRUCTION" missed="13" covered="0"/>
+            <counter type="LINE" missed="2" covered="0"/>
+            <counter type="COMPLEXITY" missed="2" covered="0"/>
+            <counter type="METHOD" missed="2" covered="0"/>
+            <counter type="CLASS" missed="1" covered="0"/>
+        </class>
+        <class name="io/github/manamiproject/modb/test/FunctionsKt$exceptionExpected$1" sourcefilename="Functions.kt">
+            <method name="invokeSuspend" desc="(Ljava/lang/Object;)Ljava/lang/Object;" line="96">
+                <counter type="INSTRUCTION" missed="36" covered="0"/>
+                <counter type="LINE" missed="3" covered="0"/>
+                <counter type="COMPLEXITY" missed="1" covered="0"/>
+                <counter type="METHOD" missed="1" covered="0"/>
+            </method>
+            <counter type="INSTRUCTION" missed="36" covered="0"/>
+            <counter type="LINE" missed="3" covered="0"/>
+            <counter type="COMPLEXITY" missed="1" covered="0"/>
+            <counter type="METHOD" missed="1" covered="0"/>
+            <counter type="CLASS" missed="1" covered="0"/>
+        </class>
+        <class name="io/github/manamiproject/modb/test/WireMockServerCreator" sourcefilename="WireMockServerCreator.kt">
+            <method name="&lt;init&gt;" desc="()V" line="10">
+                <counter type="INSTRUCTION" missed="0" covered="12"/>
+                <counter type="LINE" missed="0" covered="3"/>
+                <counter type="COMPLEXITY" missed="0" covered="1"/>
+                <counter type="METHOD" missed="0" covered="1"/>
+            </method>
+            <method name="getServerInstance" desc="()Lcom/github/tomakehurst/wiremock/WireMockServer;" line="12">
+                <counter type="INSTRUCTION" missed="0" covered="3"/>
+                <counter type="LINE" missed="0" covered="1"/>
+                <counter type="COMPLEXITY" missed="0" covered="1"/>
+                <counter type="METHOD" missed="0" covered="1"/>
+            </method>
+            <method name="getPort" desc="()I" line="14">
+                <counter type="INSTRUCTION" missed="0" covered="3"/>
+                <counter type="LINE" missed="0" covered="1"/>
+                <counter type="COMPLEXITY" missed="0" covered="1"/>
+                <counter type="METHOD" missed="0" covered="1"/>
+            </method>
+            <method name="afterEach" desc="()V" line="17">
+                <counter type="INSTRUCTION" missed="0" covered="4"/>
+                <counter type="LINE" missed="0" covered="2"/>
+                <counter type="COMPLEXITY" missed="0" covered="1"/>
+                <counter type="METHOD" missed="0" covered="1"/>
+            </method>
+            <method name="initServer" desc="()Lcom/github/tomakehurst/wiremock/WireMockServer;" line="21">
+                <counter type="INSTRUCTION" missed="0" covered="18"/>
+                <counter type="LINE" missed="0" covered="7"/>
+                <counter type="COMPLEXITY" missed="0" covered="1"/>
+                <counter type="METHOD" missed="0" covered="1"/>
+            </method>
+            <counter type="INSTRUCTION" missed="0" covered="40"/>
+            <counter type="LINE" missed="0" covered="12"/>
+            <counter type="COMPLEXITY" missed="0" covered="5"/>
+            <counter type="METHOD" missed="0" covered="5"/>
+            <counter type="CLASS" missed="0" covered="1"/>
+        </class>
+        <class name="io/github/manamiproject/modb/test/TempDirectoryKt$tempDirectory$1$1"
+               sourcefilename="TempDirectory.kt">
+            <method name="invokeSuspend" desc="(Ljava/lang/Object;)Ljava/lang/Object;" line="44">
+                <counter type="INSTRUCTION" missed="0" covered="12"/>
+                <counter type="LINE" missed="0" covered="2"/>
+                <counter type="COMPLEXITY" missed="0" covered="1"/>
+                <counter type="METHOD" missed="0" covered="1"/>
+            </method>
+            <counter type="INSTRUCTION" missed="0" covered="12"/>
+            <counter type="LINE" missed="0" covered="2"/>
+            <counter type="COMPLEXITY" missed="0" covered="1"/>
+            <counter type="METHOD" missed="0" covered="1"/>
+            <counter type="CLASS" missed="0" covered="1"/>
+        </class>
+        <class name="io/github/manamiproject/modb/test/FunctionsKt$exceptionExpected$1$1" sourcefilename="Functions.kt">
+            <method name="invokeSuspend" desc="(Ljava/lang/Object;)Ljava/lang/Object;" line="96">
+                <counter type="INSTRUCTION" missed="15" covered="0"/>
+                <counter type="LINE" missed="3" covered="0"/>
+                <counter type="COMPLEXITY" missed="1" covered="0"/>
+                <counter type="METHOD" missed="1" covered="0"/>
+            </method>
+            <counter type="INSTRUCTION" missed="15" covered="0"/>
+            <counter type="LINE" missed="3" covered="0"/>
+            <counter type="COMPLEXITY" missed="1" covered="0"/>
+            <counter type="METHOD" missed="1" covered="0"/>
+            <counter type="CLASS" missed="1" covered="0"/>
+        </class>
+        <class name="io/github/manamiproject/modb/test/TempDirectoryKt" sourcefilename="TempDirectory.kt">
+            <method name="tempDirectory" desc="(Lkotlin/jvm/functions/Function2;)V" line="40">
+                <counter type="INSTRUCTION" missed="0" covered="45"/>
+                <counter type="LINE" missed="0" covered="5"/>
+                <counter type="COMPLEXITY" missed="0" covered="1"/>
+                <counter type="METHOD" missed="0" covered="1"/>
+            </method>
+            <counter type="INSTRUCTION" missed="0" covered="45"/>
+            <counter type="LINE" missed="0" covered="5"/>
+            <counter type="COMPLEXITY" missed="0" covered="1"/>
+            <counter type="METHOD" missed="0" covered="1"/>
+            <counter type="CLASS" missed="0" covered="1"/>
+        </class>
+        <class name="io/github/manamiproject/modb/test/TempDirectory" sourcefilename="TempDirectory.kt">
+            <method name="&lt;init&gt;" desc="(Ljava/lang/String;)V" line="14">
+                <counter type="INSTRUCTION" missed="0" covered="15"/>
+                <counter type="LINE" missed="0" covered="2"/>
+                <counter type="COMPLEXITY" missed="0" covered="1"/>
+                <counter type="METHOD" missed="0" covered="1"/>
+            </method>
+            <method name="&lt;init&gt;" desc="(Ljava/lang/String;ILkotlin/jvm/internal/DefaultConstructorMarker;)V"
+                    line="14">
+                <counter type="INSTRUCTION" missed="0" covered="9"/>
+                <counter type="LINE" missed="0" covered="2"/>
+                <counter type="COMPLEXITY" missed="0" covered="1"/>
+                <counter type="METHOD" missed="0" covered="1"/>
+            </method>
+            <method name="getTempDir" desc="()Ljava/nio/file/Path;" line="16">
+                <counter type="INSTRUCTION" missed="0" covered="3"/>
+                <counter type="LINE" missed="0" covered="1"/>
+                <counter type="COMPLEXITY" missed="0" covered="1"/>
+                <counter type="METHOD" missed="0" covered="1"/>
+            </method>
+            <method name="close" desc="()V" line="19">
+                <counter type="INSTRUCTION" missed="0" covered="9"/>
+                <counter type="LINE" missed="0" covered="2"/>
+                <counter type="COMPLEXITY" missed="0" covered="1"/>
+                <counter type="METHOD" missed="0" covered="1"/>
+            </method>
+            <counter type="INSTRUCTION" missed="0" covered="36"/>
+            <counter type="LINE" missed="0" covered="5"/>
+            <counter type="COMPLEXITY" missed="0" covered="4"/>
+            <counter type="METHOD" missed="0" covered="4"/>
+            <counter type="CLASS" missed="0" covered="1"/>
+        </class>
+        <class name="io/github/manamiproject/modb/test/MockServerTestCase" sourcefilename="MockServerTestCase.kt"/>
+        <sourcefile name="TempDirectory.kt">
+            <line nr="14" mi="0" ci="11" mb="0" cb="0"/>
+            <line nr="16" mi="0" ci="12" mb="0" cb="0"/>
+            <line nr="19" mi="0" ci="8" mb="0" cb="0"/>
+            <line nr="20" mi="0" ci="1" mb="0" cb="0"/>
+            <line nr="21" mi="0" ci="1" mb="0" cb="0"/>
+            <line nr="40" mi="0" ci="7" mb="0" cb="0"/>
+            <line nr="42" mi="0" ci="20" mb="0" cb="0"/>
+            <line nr="43" mi="0" ci="12" mb="0" cb="0"/>
+            <line nr="44" mi="0" ci="9" mb="0" cb="0"/>
+            <line nr="45" mi="0" ci="3" mb="0" cb="0"/>
+            <line nr="46" mi="0" ci="2" mb="0" cb="0"/>
+            <line nr="47" mi="0" ci="1" mb="0" cb="0"/>
+            <counter type="INSTRUCTION" missed="0" covered="93"/>
+            <counter type="LINE" missed="0" covered="12"/>
+            <counter type="COMPLEXITY" missed="0" covered="6"/>
+            <counter type="METHOD" missed="0" covered="6"/>
+            <counter type="CLASS" missed="0" covered="3"/>
+        </sourcefile>
+        <sourcefile name="WireMockServerCreator.kt">
+            <line nr="10" mi="0" ci="3" mb="0" cb="0"/>
+            <line nr="12" mi="0" ci="7" mb="0" cb="0"/>
+            <line nr="14" mi="0" ci="8" mb="0" cb="0"/>
+            <line nr="17" mi="0" ci="3" mb="0" cb="0"/>
+            <line nr="18" mi="0" ci="1" mb="0" cb="0"/>
+            <line nr="21" mi="0" ci="5" mb="0" cb="0"/>
+            <line nr="22" mi="0" ci="1" mb="0" cb="0"/>
+            <line nr="23" mi="0" ci="1" mb="0" cb="0"/>
+            <line nr="24" mi="0" ci="3" mb="0" cb="0"/>
+            <line nr="25" mi="0" ci="5" mb="0" cb="0"/>
+            <line nr="26" mi="0" ci="2" mb="0" cb="0"/>
+            <line nr="27" mi="0" ci="1" mb="0" cb="0"/>
+            <counter type="INSTRUCTION" missed="0" covered="40"/>
+            <counter type="LINE" missed="0" covered="12"/>
+            <counter type="COMPLEXITY" missed="0" covered="5"/>
+            <counter type="METHOD" missed="0" covered="5"/>
+            <counter type="CLASS" missed="0" covered="1"/>
+        </sourcefile>
+        <sourcefile name="MockServerTestCase.kt"/>
+        <sourcefile name="Functions.kt">
+            <line nr="31" mi="0" ci="16" mb="0" cb="4"/>
+            <line nr="32" mi="0" ci="18" mb="0" cb="4"/>
+            <line nr="34" mi="0" ci="6" mb="0" cb="0"/>
+            <line nr="79" mi="7" ci="0" mb="0" cb="0"/>
+            <line nr="96" mi="33" ci="0" mb="0" cb="0"/>
+            <line nr="97" mi="8" ci="0" mb="0" cb="0"/>
+            <line nr="98" mi="7" ci="0" mb="0" cb="0"/>
+            <line nr="99" mi="3" ci="0" mb="0" cb="0"/>
+            <counter type="INSTRUCTION" missed="58" covered="43"/>
+            <counter type="BRANCH" missed="0" covered="8"/>
+            <counter type="LINE" missed="5" covered="3"/>
+            <counter type="COMPLEXITY" missed="3" covered="5"/>
+            <counter type="METHOD" missed="3" covered="1"/>
+            <counter type="CLASS" missed="2" covered="1"/>
+        </sourcefile>
+        <sourcefile name="CoroutineExceptionHandler.kt">
+            <line nr="44" mi="5" ci="0" mb="0" cb="0"/>
+            <line nr="46" mi="5" ci="0" mb="0" cb="0"/>
+            <counter type="INSTRUCTION" missed="13" covered="0"/>
+            <counter type="LINE" missed="2" covered="0"/>
+            <counter type="COMPLEXITY" missed="2" covered="0"/>
+            <counter type="METHOD" missed="2" covered="0"/>
+            <counter type="CLASS" missed="1" covered="0"/>
+        </sourcefile>
+        <counter type="INSTRUCTION" missed="71" covered="176"/>
+        <counter type="BRANCH" missed="0" covered="8"/>
+        <counter type="LINE" missed="7" covered="27"/>
+        <counter type="COMPLEXITY" missed="5" covered="16"/>
+        <counter type="METHOD" missed="5" covered="12"/>
+        <counter type="CLASS" missed="3" covered="5"/>
+    </package>
+    <counter type="INSTRUCTION" missed="71" covered="176"/>
+    <counter type="BRANCH" missed="0" covered="8"/>
+    <counter type="LINE" missed="7" covered="27"/>
+    <counter type="COMPLEXITY" missed="5" covered="16"/>
+    <counter type="METHOD" missed="5" covered="12"/>
+    <counter type="CLASS" missed="3" covered="5"/>
+</report>
